@@ -1,0 +1,14 @@
+div {
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+  text-align: center;
+  background-color: palevioletred;
+}
+
+div:hover {
+  color: skyblue;
+  background-color: white;
+  transition-duration: 3s;
+  transform: rotate(360deg);
+}
