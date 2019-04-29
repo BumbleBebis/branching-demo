@@ -1,14 +1,19 @@
 div {
-  height: 200px;
-  width: 200px;
-  font-size: 50px;
+  height: 500px;
+  width: 500px;
+  font-size: 100px;
   text-align: center;
   background-color: palevioletred;
+  text-transform: uppercase;
 }
 
 div:hover {
   color: skyblue;
   background-color: white;
   transition-duration: 3s;
-  transform: rotate(360deg);
+}
+
+img {
+  height: 100%;
+  width: 500px;
 }
